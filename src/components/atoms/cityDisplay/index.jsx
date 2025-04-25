@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 const CityDisplay = ({ city }) => {
   return (
     <div>
-      <Typography variant="h5">Weather in {city}</Typography>
+      <Typography variant="h6">Weather in {city}</Typography>
     </div>
   );
 };

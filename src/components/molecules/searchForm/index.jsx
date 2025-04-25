@@ -29,7 +29,6 @@ const SearchForm = ({ city, onChange, onClick }) => {
             margin: "0 ",
           }}
         >
-       
           <InputField
             value={city}
             onChange={onChange}
