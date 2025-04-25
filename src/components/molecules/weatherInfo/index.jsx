@@ -12,6 +12,10 @@ const WeatherInfo = ({ city, temperature, description }) => {
     weatherImage = "/src/assets/cloud.png"; 
   }
 
+  else if (description.toLowerCase().includes("light rain")) {
+    weatherImage = "/src/assets/rain.png"; 
+  }
+
   return (
     <div style={{ display: "flex", alignItems: "center" }}>
       <div style={{ flex: 1 }}>
