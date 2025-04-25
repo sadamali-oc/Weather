@@ -1,7 +1,14 @@
-import axios from 'axios'
+// 040ceaf6019df4c8a905aa66a1e51f64
 
-const instance = axios.create({
-    baseURL:"https://dummyjson.com"
-})
+import axios from 'axios';
 
-export default instance;
+// Create an Axios instance with the base URL and default parameters (API key).
+const BaseAxios = axios.create({
+  baseURL: 'https://api.openweathermap.org/data/2.5',  // Base URL for OpenWeatherMap
+  params: {
+    appid: '040ceaf6019df4c8a905aa66a1e51f64',  // API Key to authenticate the request
+  },
+});
+
+
+export default BaseAxios;

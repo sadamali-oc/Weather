@@ -1,10 +1,12 @@
-import React from 'react'
-import InputText from './components/atoms/inputText'
+import React from "react";
+import WeatherDashboardPage from "./pages";
 
 const App = () => {
   return (
-    <div><InputText/></div>
-  )
-}
+    <div>
+      <WeatherDashboardPage />
+    </div>
+  );
+};
 
 export default App;
