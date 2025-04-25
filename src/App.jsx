@@ -1,9 +1,10 @@
 import React from 'react'
+import InputText from './components/atoms/inputText'
 
-function App() {
+const App = () => {
   return (
-    <div>App</div>
+    <div><InputText/></div>
   )
 }
 
-export default App
+export default App;
