@@ -13,7 +13,7 @@ const BasicCard = ({ children, sx = {} }, className) => {
           borderRadius: 8,
           padding: 2,
           margin: "10px auto",
-          width: "40%",
+          minwidth: "40%",
           minheight: "70vh",
           color: "#000",
           ...sx,
